@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { LiftComponent } from './lift/lift.component';
+import { CharacterStatsComponent } from './character-stats/character-stats.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LiftComponent
+    LiftComponent,
+    CharacterStatsComponent
   ],
   imports: [
     BrowserModule
