@@ -1,2 +1,6 @@
 {{title}}
-<app-character-stats></app-character-stats>
+<br/>
+{{stats | json}}
+<app-character-stats ></app-character-stats>
+{{stats}}
+<p *ngFor="let item of stats.section">{{item.name}} {{item.lift}} </p>

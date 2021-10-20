@@ -1,5 +1,5 @@
 export interface StatsSection{
-    section: Person;
+    section: Person[];
 }
 
 export interface Person {
